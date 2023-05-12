@@ -8,10 +8,10 @@ use Psr\Http\Message\ResponseInterface;
 
 class Transport
 {
-    const API_URL = "https://s3.tlzdevstage.com/api/v1";
+    const API_URL = "https://pay.toolzo.com";
     const API_VERSION = "1";
-    const API_KEY = "28bd2741023249e6b32c029f82d2bddd";
-    const SECRET = "l+q+Pk/MDvFGO/9+PJsyRSHGIVVoPrSgD37rNQ4tVcHUL4yWkjDqHKOd65pyZEIB9/wza9FPsG42jWBdHrOiyw==";
+    const API_KEY = "your apikey";
+    const SECRET = "your secret key";
     const REQUEST_TYPE_REQUEST = "Request";
 
     /**
